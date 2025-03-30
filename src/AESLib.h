@@ -64,7 +64,9 @@ class AESLib
 
 #ifndef __AVR__
 #ifndef NRF5
+#ifndef ARDUINO_ARCH_SAMD
     std::string intToHex(uint8_t intValue);
+#endif
 #endif
 #endif
 
